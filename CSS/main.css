@@ -1,0 +1,252 @@
+
+* {
+  font-family: 'Maven Pro', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.backgroundheader{
+    background-image: linear-gradient(to left top, #02337c, #0058a0, #007dbe, #00a3d8, #19c9ee);
+}
+
+.firstlist{
+    width: 40%;
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    }
+
+.navigation {  
+    cursor:pointer;
+    display: flex; 
+    background-image: linear-gradient(to left top, #02337c, #0058a0, #007dbe, #00a3d8, #19c9ee); 
+    position:relative
+}
+
+.imgletterR {
+    width: 50px;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.imglogin{
+    width: 50px;
+    position: absolute;
+    right: 0;  
+    margin-right: 20px;
+}
+
+.firstsection{
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divfirstsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(0,0,1,0.2);
+    height: fit-content;
+    border-radius: 10px;
+    padding: 10px 0;
+    position: relative;
+
+}
+
+.divfirstsection:hover {
+    bottom: 10px;
+
+}
+
+.title {
+    text-align: center;
+    color:white;
+    font-weight: bolder;
+    font-size: 80px;
+    background-color: rgb(0,0,1,0.2);
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 150px;
+    }
+
+.button .btnlabel {
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    color: white; 
+}
+
+.button .btnlabel:hover {
+    font-weight: bold;
+    cursor: pointer; 
+    border: 2px solid lightgrey;
+    background-color: lightskyblue;
+}
+
+.backgroundmain{
+    background-image: url("https://media.revistagq.com/photos/5d1095196994dc2b1e777088/master/w_1600,c_limit/monsters.jpg");
+    background-size: cover;
+    height: 570px;
+    background-repeat: no-repeat;
+    background-position-y: -158px;
+}
+
+.imgcamera {
+    width: 60px;
+    margin-top:50px;
+    margin-bottom: 20px;
+}
+
+.imgkey {
+    width: 60px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.imgpower {
+    width: 60px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.secondsection{
+    background-color: gray;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.secondsection .imgcaution {
+   width: 40px;
+   height: 40px;
+   margin: 10px;
+}
+
+.secondsection .span5 {
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.footer{
+    color: white;
+    border-top: 1px solid white;
+}
+
+.footer .imgletterR2{
+    width: 20px;   
+    margin-right: 15px;
+}
+
+.secondlist{
+    width: 100%;
+    display: flex;
+    color: white;
+    list-style-type: none;
+    justify-content: space-between;   
+}
+
+.secondlist .secondlistitem {
+    display: flex;
+    flex-direction: column;
+}
+
+.secondlist .secondlistitem span:first-child  {
+    font-size: 20px ;
+    font-weight: bolder;
+}
+
+.secondlist .secondlistitem span {
+    opacity: 0.5;
+}
+
+.secondlist .secondlistitem span:hover {
+    opacity: 1;
+}
+
+.imgsocialmedia{
+    width: 22px;
+    height: 22px;
+    align-self: center;
+    cursor: pointer;
+    margin: 8px;
+    
+  
+}
+
+.links {
+    background-color: grey;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 120px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    
+}
+
+.divfooter{
+    background-color: grey;
+    padding-top: 15px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.credits{
+    background-color: #6a6a6a;
+    display: flex;
+    justify-content: center;   
+}
+
+.credits span {
+    align-self: center;
+}
+
+.imgpixar{
+    width: 80px;
+    margin: 10px;
+}
+
+.terms {
+    background-color:#4f4f4f;
+    height: 50px;
+ 
+}
+
+
+.terms .listterms {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    font-size: small;
+    text-decoration-line: underline;
+}
+
+.item{
+    padding: 15px;
+    cursor: pointer;
+}
+    
+
+
+
