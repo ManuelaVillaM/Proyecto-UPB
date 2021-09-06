@@ -7,6 +7,10 @@
     <title>Document</title>
     <link href="CSS/main.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="JS/index.js"></script>
+
   </head>
 
   <body> 
@@ -15,7 +19,7 @@
 
       <nav class="navigation">
 
-        <img src="https://imgur.com/21aU5CR.png" class="imgletterR">
+        <img src="IMAGENES/letter r.png" class="imgletterR">
       
 
         <ul class="firstlist">
@@ -26,51 +30,56 @@
           <li>Try/Buy</li>
         </ul>
 
-        <img src="https://imgur.com/UIkJaKy.png" class="imglogin">
+        <img src="IMAGENES/Login.png" class="imglogin">
       </nav>
 
     </header>
 
-    <main class="backgroundmain">
+    <main>
+      <div class="swiper">
+        <div class="swiper-content"> 
+          <h1 class="title">RenderMan 24 is Released!</h1>
+          <div class="button"> <button class="btnlabel" >What's New</button></div>
+          <section class="firstsection">
+            <div class="divfirstsection">
+              <img src="IMAGENES/video camera.png" class="imgcamera" />
+              <span>Feature Film Quality</span>
+              <span>Now delivering fantastic features from Pixar production</span>
+            </div> 
+            <div class="divfirstsection">
+              <img src="IMAGENES/key.png" class="imgkey" />
+              <span>Get RenderMan</span>
+              <span>Get a quote today, or try RenderMan for non-commercial use</span>          
+            </div>  
+            <div class="divfirstsection">
+              <img src="IMAGENES/power.png" class="imgpower" />
+              <span>World Class Support</span>
+              <span>File bugs and have discussions in Pixar's news</span>
+            </div>
+          </section>
+        </div>
 
-      <h1 class="title">RenderMan 24 is Released!</h1>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide background1"></div>
+          <div class="swiper-slide background2"></div>
+          <div class="swiper-slide background3"></div>
+        </div>
 
-      <div class="button"> 
-        <button class="btnlabel" >What's New</button>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
       </div>
-
-      <section class="firstsection">
-        
-        <div class="divfirstsection">
-          <img src="https://imgur.com/HcFEsOb.png" class="imgcamera" />
-            <span>Feature Film Quality</span>
-            <span>Now delivering fantastic features from Pixar production</span>
-        </div>
-          
-        <div class="divfirstsection">
-          <img src="https://imgur.com/yDX3l81.png" class="imgkey" />
-            <span>Get RenderMan</span>
-            <span>Get a quote today, or try RenderMan for non-commercial use</span
-            >          
-        </div>
-            
-         <div class="divfirstsection">
-           <img src="https://imgur.com/AfubYXn.png" class="imgpower" />
-          <span>World Class Support</span>
-          <span>File bugs and have discussions in Pixar's news</span>
-        </div>
-      </section>
     </main>
 
     <section class="secondsection">
-      <img src="https://i.imgur.com/JYc9qN4.png" class="imgcaution">
+      <img src="IMAGENES/caution.png" class="imgcaution">
       <span class="span5">NEWS | PIXAR RELEASES RENDERMAN 24! </span>
       <HR></HR>
     </section>
 
     <footer class="footer">
       <div class="divfooter">
-        <img src="https://imgur.com/k8czix1.png" class="imgletterR2">
+        <img src="IMAGENES/letter r.png" class="imgletterR2">
         <span>/ HOME</span>
       </div>
       
@@ -119,11 +128,11 @@
      </section>
 
      <section class="credits">
-       <img src="https://imgur.com/bThbYkd.png" class="imgpixar">
+       <img src="IMAGENES/Pixar.png" class="imgpixar">
        <span>TM & © 1986 - 2021 Pixar. All Rights Reserved.</span>
-       <img src="https://imgur.com/rYyEnXF.png" class="imgsocialmedia">
-       <img src="https://imgur.com/ALsX7qj.png" class="imgsocialmedia">
-       <img src="https://imgur.com/2k4knum.png" class="imgsocialmedia">
+       <img src="IMAGENES/Twitter.png" class="imgsocialmedia">
+       <img src="IMAGENES/facebook.png" class="imgsocialmedia">
+       <img src="IMAGENES/instagram.png" class="imgsocialmedia">
      </section>
 
      <section class="terms">
@@ -141,3 +150,5 @@
     </footer>
   </body>
 </html>
+
+
