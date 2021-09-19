@@ -20,6 +20,17 @@
     margin-left: 20px;
     }
 
+@media (max-width: 600px) {
+    .firstlist {
+        margin-left: 0;
+        width: 65%;
+    }
+
+    .firstlist li {
+        font-size: 14px;
+    }
+}
+
 .navigation {  
     cursor:pointer;
     display: flex; 

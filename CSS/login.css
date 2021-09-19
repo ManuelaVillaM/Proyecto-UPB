@@ -1,0 +1,73 @@
+.containerlogin {
+    width: 100%;
+    background-color: #fefefe;
+    margin-bottom: 30px;
+}
+
+.containerinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.Rendermanlogo {
+    width: 500px;
+} 
+
+@media (max-width: 600px) {
+    .Rendermanlogo {
+        width: 300px;
+    }
+}
+
+.input {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.login {
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: lightskyblue;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.form {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 20px 40px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainlabelfooter {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.btncontainerlogin {
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+    background-color: #fefefe;
+    color:lightskyblue;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btnscontainer :nth-child(1){ 
+    margin-right: 20px;
+}
+
+.linebreak {
+    width: 70%;
+    margin-top: 20px;
+}
